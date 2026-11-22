@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vocabulary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="home">
+
+        <h3>How many words do you want to practice?</h3>
+
+        <input
+            type="number"
+            id="wordcount"
+            placeholder="Enter number of words"
+            min="1"
+        >
+
+        <button id="startexam">Start Exam</button>
+
+    </div>
+
+    <div id="exam" style="display:none;">
+
+        <h2 id="progress"></h2>
+
+        <h1 id="question"></h1>
+
+        <input
+            type="text"
+            id="answer"
+            placeholder="Write English meaning"
+        >
+
+        <button id="check">Check Answer</button>
+
+        <p id="result"></p>
+
+        <button id="next" style="display:none;">
+            Next Word
+        </button>
+
+    </div>
+
+
+    <div id="resultPage" style="display:none;">
+
+        <h2>Exam Completed!</h2>
+
+        <h3 id="score"></h3>
+
+        <button id="newExam">Start New Exam</button>
+
+       
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
