@@ -1,4 +1,4 @@
-
+/* Common Design */
 
 body {
     min-height: 100vh;
@@ -7,9 +7,15 @@ body {
     place-items: center;
     font-family: Arial, sans-serif;
     text-align: center;
-    background: linear-gradient(135deg, #ffc1dc, #ff8fb8);
+    background-color: #ffd6e7;
+    background-image: url("background.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
+/* Card design (shob page er jonno) */
 
 #home,
 #exam,
@@ -22,7 +28,7 @@ body {
     max-width: 90vw;
 }
 
-
+/* Home Page */
 
 #home {
     text-align: center;
@@ -34,6 +40,7 @@ body {
     margin-top: 0;
 }
 
+/* Exam Page */
 
 #exam {
     flex-direction: column;
@@ -48,6 +55,7 @@ body {
     margin: 0;
 }
 
+/* Result Page */
 
 #resultPage {
     text-align: center;
@@ -63,7 +71,7 @@ body {
     font-size: 26px;
 }
 
-
+/* Question */
 
 #question {
     font-size: 40px;
@@ -71,7 +79,7 @@ body {
     color: #c2185b;
 }
 
-
+/* Answer message */
 
 #result {
     font-size: 18px;
@@ -80,7 +88,7 @@ body {
     margin: 0;
 }
 
-
+/* Input */
 
 input {
     padding: 12px;
@@ -97,7 +105,7 @@ input:focus {
     box-shadow: 0 0 6px rgba(255, 77, 148, 0.5);
 }
 
-
+/* Buttons */
 
 button {
     padding: 12px 25px;
